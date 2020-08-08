@@ -51,3 +51,7 @@ ul {
     color: darkslategray;
     font-size: 30px;
 }
+.photoSkills {
+    width: 480px;
+    height: auto;
+}
