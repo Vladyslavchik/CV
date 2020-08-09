@@ -35,10 +35,12 @@ ul {
     border-radius: 50%;
 }
 .heading_name {
+    font-family: "Montserrat Medium";
     color: antiquewhite;
     font-size: 30px;
 }
 .heading_about_me {
+    font-family: "Montserrat Medium";
     color: antiquewhite;
     font-size: 20px;
 }
@@ -71,10 +73,19 @@ ul {
     border-bottom: 3px solid dimgray;
 }
 .heading_experience {
+    font-family: "Montserrat Medium";
     color: darkslategray;
     font-size: 30px;
 }
 .photo_skills {
     width: 480px;
     height: auto;
+}
+
+
+@font-face {
+    font-family: "Montserrat Medium";
+    src: url("fonts/Montserrat-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
