@@ -10,48 +10,71 @@ ul {
     margin-right: auto;
     margin-left: auto;
 }
-.left-side-bar {
+.left_side_bar {
     width: 400px;
     background-color: darkslategray;
     min-height: 500px;
-    display: flex;
+    /*display: flex;*/
 }
-.left-section {
-    padding: 50px;
+.left_section {
+    padding: 10px 50px 0px 50px;
+
 }
-.left-p {
+.left_prof {
     color: antiquewhite;
+    margin-bottom: 40px;
     border-bottom: 3px solid dimgray;
+}
+.left_prof_withoutborder {
+    color: antiquewhite;
+    margin-bottom: 40px;
 }
 .photo {
     width: 300px;
     height: 300px;
     border-radius: 50%;
 }
-.heading1-left {
+.heading_name {
     color: antiquewhite;
     font-size: 30px;
 }
-.right-side-bar {
+.heading_about_me {
+    color: antiquewhite;
+    font-size: 20px;
+}
+.left_list_contact {
+    color :antiquewhite;
+}
+.left_list_contact_img1 {
+    list-style-image: url("foto/tel40.png");
+
+}
+.left_list_contact_img2 {
+    list-style-image: url("foto/poch40.png");
+}
+.left_list_contact_img3 {
+    list-style-image: url("foto/inst40.png");
+}
+.right_side_bar {
     padding: 50px;
     width: 600px;
     background-color: antiquewhite;
     min-height: 500px;
 }
-.right-section {
+.right_section {
     padding: 0px 50px;
     margin-bottom: 20px;
     border: 3px solid black;
 }
-.right-p {
+.right_p_experience {
     color: darkslategray;
     border-bottom: 3px solid dimgray;
 }
-.heading1-right {
+.heading_experience {
     color: darkslategray;
     font-size: 30px;
 }
-.photoSkills {
+.photo_skills {
     width: 480px;
     height: auto;
 }
