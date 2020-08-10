@@ -47,21 +47,31 @@ ul {
 }
 .right_section {
     border: 3px solid black;
-    padding: 0px 50px;
+    padding: 20px 50px;
+    position: relative;
 }
 .right_section,
 .right_section_skills{
     color: darkslategray;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .right_section_skills {
     display: flex;
+}
+.position {
+    width: 200px;
+    background-color: antiquewhite;
+    text-align: center;
+    border: 3px solid black;
+    position: absolute;
+    top: -35px;
 }
 .experience,
 .education,
 .my_skills {
     font-family: "Montserrat Medium";
     font-size: 20px;
+
 }
 .experience_info,
 .education_info {
