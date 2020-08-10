@@ -37,11 +37,16 @@ ul {
 .heading_name {
     font-family: "Montserrat Medium";
     color: antiquewhite;
-    font-size: 30px;
+    font-size: 40px;
 }
 .heading_about_me {
     font-family: "Montserrat Medium";
     color: antiquewhite;
+    font-size: 20px;
+}
+.heading_experience {
+    font-family: "Montserrat Medium";
+    color: darkslategray;
     font-size: 20px;
 }
 .left_list_contact {
@@ -72,11 +77,7 @@ ul {
     color: darkslategray;
     border-bottom: 3px solid dimgray;
 }
-.heading_experience {
-    font-family: "Montserrat Medium";
-    color: darkslategray;
-    font-size: 30px;
-}
+
 .photo_skills {
     width: 480px;
     height: auto;
