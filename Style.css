@@ -12,19 +12,9 @@ ul {
 .left_side_bar {
     width: 400px;
     background-color: darkslategray;
-    height: 1000px;
-    /*display: flex;*/
 }
 .left_section {
     padding: 10px 50px 0px;
-
-}
-.left_prof {
-    color: antiquewhite;
-    margin-bottom: 40px;
-    border-bottom: 3px solid dimgray;
-}
-.left_prof_withoutborder {
     color: antiquewhite;
     margin-bottom: 40px;
 }
@@ -33,40 +23,50 @@ ul {
     height: 300px;
     border-radius: 50%;
 }
-.heading_name {
-    font-family: "Montserrat Medium";
-    color: antiquewhite;
+.bio_name {
     font-size: 40px;
 }
-.heading_about_me {
-    font-family: "Montserrat Medium";
-    color: antiquewhite;
-    font-size: 20px;
+.bio_occupation {
+    border-bottom: 3px solid dimgray;
 }
-.heading_experience {
+.bio_name,
+.interests,
+.contact_info,
+.about_me {
     font-family: "Montserrat Medium";
-    color: darkslategray;
-    font-size: 20px;
 }
-.left_list_contact {
-    color :antiquewhite;
+.about_me,
+.contact_info,
+.interests {
+    font-size: 20px;
 }
 .right_side_bar {
     padding: 50px;
     width: 600px;
     background-color: antiquewhite;
-    height: 900px;
 }
 .right_section {
-    padding: 0px 50px;
-    margin-bottom: 20px;
     border: 3px solid black;
+    padding: 0px 50px;
 }
-.right_p_experience {
+.right_section,
+.right_section_skills{
     color: darkslategray;
+    margin-bottom: 20px;
+}
+.right_section_skills {
+    display: flex;
+}
+.experience,
+.education,
+.my_skills {
+    font-family: "Montserrat Medium";
+    font-size: 20px;
+}
+.experience_info,
+.education_info {
     border-bottom: 3px solid dimgray;
 }
-
 .photo_skills {
     width: 480px;
     height: auto;
