@@ -14,7 +14,7 @@ ul {
     background-color: darkslategray;
 }
 .left_section {
-    padding: 10px 50px 0px;
+    padding: 0px 50px;
     color: antiquewhite;
     margin-bottom: 40px;
 }
@@ -22,23 +22,14 @@ ul {
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    padding-top: 10px;
 }
 .bio_name {
     font-size: 40px;
+    font-family: "Montserrat Medium";
 }
 .bio_occupation {
     border-bottom: 3px solid dimgray;
-}
-.bio_name,
-.interests,
-.contact_info,
-.about_me {
-    font-family: "Montserrat Medium";
-}
-.about_me,
-.contact_info,
-.interests {
-    font-size: 20px;
 }
 .right_side_bar {
     padding: 50px;
@@ -47,7 +38,7 @@ ul {
 }
 .right_section {
     border: 3px solid black;
-    padding: 20px 50px;
+    padding: 25px 50px;
     position: relative;
 }
 .right_section,
@@ -66,12 +57,9 @@ ul {
     position: absolute;
     top: -35px;
 }
-.experience,
-.education,
-.my_skills {
+.mons_font {
     font-family: "Montserrat Medium";
     font-size: 20px;
-
 }
 .experience_info,
 .education_info {
@@ -80,6 +68,15 @@ ul {
 .photo_skills {
     width: 480px;
     height: auto;
+}
+.phone {
+    list-style-image: url("foto/phone.png");
+}
+.mail {
+    list-style-image: url("foto/mail.png");
+}
+.inst {
+    list-style-image: url("foto/insta.png");
 }
 
 
