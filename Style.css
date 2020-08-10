@@ -4,20 +4,19 @@ body {
 ul {
     list-style-type: square;
 }
-.main {
+.main_container {
     width: 1000px;
     display: flex;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
 }
 .left_side_bar {
     width: 400px;
     background-color: darkslategray;
-    min-height: 500px;
+    height: 1000px;
     /*display: flex;*/
 }
 .left_section {
-    padding: 10px 50px 0px 50px;
+    padding: 10px 50px 0px;
 
 }
 .left_prof {
@@ -52,21 +51,11 @@ ul {
 .left_list_contact {
     color :antiquewhite;
 }
-.left_list_contact_img1 {
-    list-style-image: url("foto/tel40.png");
-
-}
-.left_list_contact_img2 {
-    list-style-image: url("foto/poch40.png");
-}
-.left_list_contact_img3 {
-    list-style-image: url("foto/inst40.png");
-}
 .right_side_bar {
     padding: 50px;
     width: 600px;
     background-color: antiquewhite;
-    min-height: 500px;
+    height: 900px;
 }
 .right_section {
     padding: 0px 50px;
